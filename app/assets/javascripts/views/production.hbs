@@ -1,0 +1,33 @@
+<div class="row">
+  <div class="col-md-12">
+    <h1>{{name}}</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-5 details">
+    {{> 'views/_details'}}
+  </div>
+
+  <div class="col-md-7">
+    {{> 'views/_clients'}}
+    {{> 'views/_broadcasts'}}
+  </div>
+
+</div>
+
+{{#if notes}}
+  <div class="row">
+    <div class="col-md-12">
+      <h4>Notes</h4>
+      <pre>{{notes}}</pre>
+    </div>
+  </div>
+{{/if}}
+
+<div class="row">
+  <div class="col-md-12 crew">
+    {{> 'views/_crew'}}
+  </div>
+</div>
+

@@ -1,0 +1,71 @@
+<h4>Crew List</h4>
+<form>
+
+  <table class="table table-condensed table-hover">
+
+    <thead>
+      <th class="col-md-3">Category</th>
+      <th class="col-md-3">Post</th>
+      <th class="col-md-2 text-right">Rate</th>
+      <th class="col-md-2 text-right">Travel</th>
+      <th class="col-md-1"></th>
+      <th class="col-md-1 text-right">Subtotal</th>
+    </thead>
+
+    <tbody>
+
+      {{#each crew}}
+        <tr data-id="{{id}}">
+          <td>{{category}}</td>
+          <td>{{qty}} {{unit}}s</td>
+          <td class="text-right">${{rate}}</td>
+          <td class="text-right">--</td>
+          <td class="text-center">
+            <a class="btn btn-xs btn-default"><i class="glyphicon glyphicon-trash"></i></a>
+          </td>
+          <td class="text-right">
+            <a>{{total}}</a>
+          </td>
+        </tr>
+      {{/each}}
+
+      <tr>
+        <td>
+          <select name="category" class="form-control" required>
+            <option></option>
+            {{> 'views/_roles'}}
+          </select>
+        </td>
+        <td>
+          <input name="unit" type="hidden" value="day" required />
+          <div class="input-group">
+            <input name="qty" type="number" placeholder="#" class="form-control" required />
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">day <span class="caret"></span></button>
+              <ul class="dropdown-menu pull-right">
+                <li><a>day</a></li>
+                <li><a>game</a></li>
+                <li class="divider"></li>
+                <li><a>flat rate</a></li>
+              </ul>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input name="rate" type="number" placeholder="rate" class="form-control" required />
+          </div>
+        </td>
+        <td><button class="btn btn-default btn-block">Estimate</button></td>
+        <td colspan="2">
+          <input type="hidden" name="resource_type" value="crew" required />
+          <button data-action="add" class="btn-block btn btn-primary">Add</button>
+        </td>
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</form>

@@ -1,0 +1,28 @@
+<h4>Coverage</h4>
+
+<form>
+  <table class="table table-hover table-condensed">
+    <tbody>
+
+      {{#each broadcasts}}
+        <tr data-id="{{id}}">
+          <td>{{name}}</td>
+          <td class="text-center">
+            <a class="btn btn-xs btn-default"><i class="glyphicon glyphicon-trash"></i></a>
+          </td>
+        </tr>
+      {{/each}}
+
+      <tr>
+        <td class="col-md-5">
+          <input type="text" placeholder="description" name="name" class="form-control" required />
+        </td>
+        <td class="col-md-2">
+          <button class="btn btn-primary btn-block">Add</button>
+        </td>
+      </tr>
+
+    </tbody>
+
+  </table>
+</form>

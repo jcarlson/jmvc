@@ -14,9 +14,9 @@
 #= require jquery_ujs
 #= require bootstrap
 #= require handlebars.runtime
+#= require spine
 #= require_tree .
 
 $ ->
-  template = HandlebarsTemplates['views/production']
-  context = window.data.production
-  $('#application').html( template(context) )
+  pc = new ProductionsController( el: '#application' )
+  pc.render()

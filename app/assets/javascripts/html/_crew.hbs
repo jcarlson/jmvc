@@ -33,24 +33,10 @@
         <td>
           <select name="category" class="form-control" required>
             <option></option>
-            {{> 'views/_roles'}}
+            {{> 'html/_roles'}}
           </select>
         </td>
-        <td>
-          <input name="unit" type="hidden" value="day" required />
-          <div class="input-group">
-            <input name="qty" type="number" placeholder="#" class="form-control" required />
-            <div class="input-group-btn">
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">day <span class="caret"></span></button>
-              <ul class="dropdown-menu pull-right">
-                <li><a>day</a></li>
-                <li><a>game</a></li>
-                <li class="divider"></li>
-                <li><a>flat rate</a></li>
-              </ul>
-            </div>
-          </div>
-        </td>
+        <td data-view="DaysInput"></td>
         <td>
           <div class="input-group">
             <span class="input-group-addon">$</span>

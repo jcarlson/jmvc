@@ -18,5 +18,4 @@
 #= require_tree .
 
 $ ->
-  pc = new ProductionsController( el: '#application' )
-  pc.render()
+  new ProductionsController( el: '#application' )

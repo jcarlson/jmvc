@@ -14,8 +14,23 @@
 #= require jquery_ujs
 #= require bootstrap
 #= require handlebars.runtime
+#= require rivets
 #= require spine
 #= require_tree .
+
+rivets.configure
+
+  adapter:
+    subscribe: (obj, key, callback) ->
+      obj.bind(key, callback)
+    unsubscribe: (obj, key, callback) ->
+      obj.unbind(key, callback)
+    read: (obj, key) ->
+      if $.isFunction( obj[key] ) then obj[key].call(obj) else obj[key]
+    publish: (obj, key, value) ->
+      if $.isFunction( obj[key] ) then obj[key].call(obj, value) else obj[key] = value
+
+  prefix: 'rv'
 
 $ ->
   new ProductionsController( el: '#application' )

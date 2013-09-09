@@ -36,7 +36,14 @@
             {{> 'html/_roles'}}
           </select>
         </td>
-        <td data-view="DaysInput"></td>
+        <td>
+          <div data-view="DaysInput">
+            <option value="game">Per Game</option>
+            <option value="day">Per Day</option>
+            <hr />
+            <option value="flat">Flat Rate</option>
+          </div>
+        </td>
         <td>
           <div class="input-group">
             <span class="input-group-addon">$</span>
@@ -55,3 +62,5 @@
   </table>
 
 </form>
+
+<button data-action="stuff">Add One Unit</button>

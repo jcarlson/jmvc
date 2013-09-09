@@ -1,14 +1,18 @@
-<input name="unit" type="hidden" value="day" required />
-
 <div class="input-group">
   <input name="qty" type="number" placeholder="#" class="form-control" required />
 
   <div class="input-group-btn">
 
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">day <span class="caret"></span></button>
+    <input name="unit" type="hidden" value="{{unit.value}}" required />
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+      <span data-get="unit">{{unit.display}}</span>
+      <span class="caret"></span>
+    </button>
 
     <ul class="dropdown-menu pull-right">
-      <li data-rv-each-option="item.values"><a data-rv-text="option:value"></a></li>
+      {{#each units}}
+        <li><a data-set="unit" data-value="{{value}}">{{display}}</a></li>
+      {{/each}}
     </ul>
 
   </div>

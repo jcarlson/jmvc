@@ -1,0 +1,453 @@
+[
+    {
+        "amount": 133110,
+        "archived": false,
+        "buying_dealership": {
+            "city": "Atlanta",
+            "id": "4f5697eac3699918f8011f46",
+            "name": "DealerMatch",
+            "phone": "(855) 628-2488",
+            "state": "GA",
+            "street": "2 Concourse Pkwy, Suite 200",
+            "zipcode": "30328"
+        },
+        "dealshield_interest": null,
+        "distance": 575,
+        "id": "52713c9e87771a63fb000040",
+        "last_activity": "2013-10-31T19:28:07Z",
+        "messages": [
+            {
+                "amount": null,
+                "body": "Hey Saleem! Is there any chance you could get some pictures of these fresh cars as we add them, my buyers want to see pics of fresh stuff. I have some buyers for this price point stuff. Just snap a few with the Iphone as you load them. Hank",
+                "from": {
+                    "dealership_id": "4f5697eac3699918f8011f46",
+                    "dealership_name": "DealerMatch",
+                    "name": "Hank Stover (Offer Assist) for",
+                    "user_id": "51239749730f5a1338000249"
+                },
+                "id": "52713c9e87771a63fb00003f",
+                "read": true,
+                "timestamp": "2013-10-30T17:06:38Z",
+                "type": "message"
+            },
+            {
+                "amount": null,
+                "body": "We were doing a test and seeing how to load the cars on dealeatch.",
+                "from": {
+                    "dealership_id": "4f568658c3699918f8009a84",
+                    "dealership_name": "Perillo Bmw",
+                    "name": "Saleem Beg",
+                    "user_id": "52695e472e1778c6c000003e"
+                },
+                "id": "52713d09e3bef8ca9600003b",
+                "read": true,
+                "timestamp": "2013-10-30T17:08:25Z",
+                "type": "message"
+            },
+            {
+                "amount": 133110,
+                "body": "Are you willing to accept this offer?",
+                "from": {
+                    "dealership_id": "4f5697eac3699918f8011f46",
+                    "dealership_name": "DealerMatch",
+                    "name": "Matt Wolpers (Demo)",
+                    "user_id": "511bec79730f5a56f200008f"
+                },
+                "id": "5272ab6b2e1778fbf8000005",
+                "read": true,
+                "timestamp": "2013-10-31T19:11:39Z",
+                "type": "offer"
+            },
+            {
+                "amount": null,
+                "body": "Whats the offer?\n\n\n\nFrom: DealerMatch [mailto:messages@dealermatch.com]\nSent: Thursday, October 31, 2013 2:12 PM\nTo: sbeg@joeperillo.com\nSubject: New Offer: $133,110 - 2006 BMW 3 SERIES 325I - BLUE - 96,468 mi - WBAVB17586NK4D803\n\n\n\n\n  <http://www.dealermatch.com/images/email-header.jpg>\n\nHi Saleem Beg - Perillo Bmw,\n\nMatt Wolpers (Demo) at DealerMatch is offering\n\n\n$133,110\non\n2006 BMW 3 SERIES 325I - BLUE - 96,468 mi - WBAVB17586NK4D803 <http://email.dealermatch.com/wf/click?upn=8MP-2FUzFnwyR4kC-2BM6VBd2HU8KrZjqxy-2FfQv3OBN-2FT64B-2FdysHoASM5i1-2Bw-2ByO1kz3YrZUf3KW0LiAGrdebfW6i-2B-2B2m-2FCfGqGhcueFKnKY4I-3D_yDbceawF4YQC7Yr60h61S0p5gPzHK3lwgpG-2FN4gDNdbEabiufR8TRvjwswkGxVcBTUO-2B8q9czyst1atmLXmxr-2ByxzN1AT0kBf-2B57q2-2BaEE8NjOGDgsMpjceWebIT056MnpVF4F0AXORNzcULKJa-2F7LVceCOHA1psTyNfg-2FnDrKQxrkLBLQRX-2BP40czTRr8uZPC6u-2FLCoi0L1vckW1fPQ-2FEuie0YV57OCppN2SOBdgeI-3D>\n\nBuyer Message:\nAre you willing to accept this offer?\n\nPlease review and respond <http://email.dealermatch.com/wf/click?upn=8MP-2FUzFnwyR4kC-2BM6VBd2HU8KrZjqxy-2FfQv3OBN-2FT65N0pZshp-2FOlZbVDmTKkvs4HpYyzEv-2F-2ByKiyPz1OjIEXVwzhWuqQu6RbC09UQCB-2B-2Fo-3D_yDbceawF4YQC7Yr60h61S0p5gPzHK3lwgpG-2FN4gDNdbEabiufR8TRvjwswkGxVcB78nlPnXdAyfYqUkAdTWQYBWodCtGPpmIRR04y3RqbksO2VTQrsq3nH2GCHvfaNJppx4zu-2BtaY1GOAR-2BR2Y7YTFLqXwUte2h4m8gSPc1kTwyZ-2B2pe-2B1DXTxA1IYhX0DpDHWLmPpem8RQ-2Bo95P3KXC6rR8amkWhFSxEne-2BZEc3AgE-3D>  to the message above.",
+                "from": {
+                    "dealership_id": "4f568658c3699918f8009a84",
+                    "dealership_name": "Perillo Bmw",
+                    "name": "Saleem Beg",
+                    "user_id": "52695e472e1778c6c000003e"
+                },
+                "id": "5272af472e1778fbf8000014",
+                "read": true,
+                "timestamp": "2013-10-31T19:28:07Z",
+                "type": "message"
+            }
+        ],
+        "selling_dealership": {
+            "city": "Chicago",
+            "id": "4f568658c3699918f8009a84",
+            "name": "Perillo Bmw",
+            "phone": "(312) 981-0000",
+            "state": "IL",
+            "street": "1035 North Clark Street",
+            "zipcode": "60610"
+        },
+        "settlement": null,
+        "timestamp": "2013-10-31T19:28:07Z",
+        "vehicle": {
+            "condition_description": "Fresh trade!  Buy now before it goes to auction",
+            "custom_advertisement": null,
+            "dealership": {
+                "name": "Perillo Bmw",
+                "phone": "(312) 981-0000"
+            },
+            "description": null,
+            "hide_dealshield_advertisement": false,
+            "hide_dealshield_form": false,
+            "id": "5271324b18ba4826a400002f",
+            "location": {
+                "city": "Chicago",
+                "state": "IL",
+                "street": "1035 North Clark Street",
+                "zipcode": "60610"
+            },
+            "main_image": null,
+            "make": "BMW",
+            "model": "3 SERIES",
+            "retail_price": null,
+            "sold": false,
+            "title": "2006 BMW 3 SERIES 325I",
+            "trim": "325I",
+            "vin": "WBAVB17586NK4D803",
+            "year": 2006
+        }
+    },
+    {
+        "amount": null,
+        "archived": false,
+        "buying_dealership": {
+            "city": "Atlanta",
+            "id": "4f5697eac3699918f8011f46",
+            "name": "DealerMatch",
+            "phone": "(855) 628-2488",
+            "state": "GA",
+            "street": "2 Concourse Pkwy, Suite 200",
+            "zipcode": "30328"
+        },
+        "dealshield_interest": null,
+        "distance": 139,
+        "id": "527134102e1778c89f000003",
+        "last_activity": "2013-10-30T16:30:08Z",
+        "messages": [
+            {
+                "amount": null,
+                "body": "Jason, is this one available I think I have a Ford store who would buy it.\nHank ",
+                "from": {
+                    "dealership_id": "4f5697eac3699918f8011f46",
+                    "dealership_name": "DealerMatch",
+                    "name": "Hank Stover (Offer Assist) for",
+                    "user_id": "51239749730f5a1338000249"
+                },
+                "id": "527134102e1778c89f000002",
+                "read": false,
+                "timestamp": "2013-10-30T16:30:08Z",
+                "type": "message"
+            }
+        ],
+        "selling_dealership": {
+            "city": "Huntsville",
+            "id": "4f567b28c3699918f800152c",
+            "name": "Lexus Of Huntsville",
+            "phone": "(256) 824-8050",
+            "state": "AL",
+            "street": "6580 University Dr  NW",
+            "zipcode": "35806"
+        },
+        "settlement": null,
+        "timestamp": "2013-10-30T16:30:08Z",
+        "vehicle": {
+            "condition_description": null,
+            "custom_advertisement": null,
+            "dealership": {
+                "name": "Lexus Of Huntsville",
+                "phone": "(256) 824-8050"
+            },
+            "description": "Triton V8, 4x4. Nice truck. Great for hauling and Off-Roading. Come on in for a test drive today. Lexus of Huntsville",
+            "hide_dealshield_advertisement": false,
+            "hide_dealshield_form": false,
+            "id": "525e6ea5f299478b29cf9445",
+            "location": {
+                "city": "Huntsville",
+                "state": "AL",
+                "street": "6580 University Dr  NW",
+                "zipcode": "35806"
+            },
+            "main_image": "/proxy/images.autotrader.com/images/2013/9/17/353/835/33254571088.353835093.IM1.MAIN.565x421_A.562x421.jpg",
+            "make": "Ford",
+            "model": "F150",
+            "retail_price": 20990,
+            "sold": false,
+            "title": "2010 Ford F150 4x4 XLT",
+            "trim": "4x4 XLT",
+            "vin": "1FTFX1EV7AFC88940",
+            "year": 2010
+        }
+    },
+    {
+        "amount": 4900,
+        "archived": false,
+        "buying_dealership": {
+            "city": "Atlanta",
+            "id": "4f5697eac3699918f8011f46",
+            "name": "DealerMatch",
+            "phone": "(855) 628-2488",
+            "state": "GA",
+            "street": "2 Concourse Pkwy, Suite 200",
+            "zipcode": "30328"
+        },
+        "dealshield_interest": null,
+        "distance": 435,
+        "id": "527129f82e1778e3a600000f",
+        "last_activity": "2013-10-30T15:47:04Z",
+        "messages": [
+            {
+                "amount": 4900,
+                "body": "Paint work?",
+                "from": {
+                    "dealership_id": "4f5697eac3699918f8011f46",
+                    "dealership_name": "DealerMatch",
+                    "name": "Jay Jarrett (Demo)",
+                    "user_id": "5008acda476e480a520000ef"
+                },
+                "id": "527129f82e1778e3a6000010",
+                "read": false,
+                "timestamp": "2013-10-30T15:47:04Z",
+                "type": "offer"
+            }
+        ],
+        "selling_dealership": {
+            "city": "Harvey",
+            "id": "5199d1c215dc59b8c81916cb",
+            "name": "La Auto Sales",
+            "phone": "8884925345",
+            "state": "LA",
+            "street": "1452 Westbank Expy",
+            "zipcode": "70058"
+        },
+        "settlement": {
+            "floor_plan_company": "nextgear",
+            "id": "527129f82e1778e3a600000e",
+            "service": "floor_plan"
+        },
+        "timestamp": "2013-10-30T15:47:04Z",
+        "vehicle": {
+            "condition_description": null,
+            "custom_advertisement": null,
+            "dealership": {
+                "name": "La Auto Sales",
+                "phone": "8884925345"
+            },
+            "description": "",
+            "hide_dealshield_advertisement": false,
+            "hide_dealshield_form": false,
+            "id": "5199dc4615dc59b8c8194a51",
+            "location": {
+                "city": "Harvey",
+                "state": "LA",
+                "street": "1452 Westbank Expy",
+                "zipcode": "70058"
+            },
+            "main_image": "/proxy/images.cars.com/phototab/DMI/207524/6047/01.jpg",
+            "make": "Nissan",
+            "model": "Altima",
+            "retail_price": 6500,
+            "sold": false,
+            "title": "2005 Nissan Altima 2.5",
+            "trim": "2.5",
+            "vin": "1N4AL11D15N406047",
+            "year": 2005
+        }
+    },
+    {
+        "amount": 24000,
+        "archived": false,
+        "buying_dealership": {
+            "city": "Atlanta",
+            "id": "4f5697eac3699918f8011f46",
+            "name": "DealerMatch",
+            "phone": "(855) 628-2488",
+            "state": "GA",
+            "street": "2 Concourse Pkwy, Suite 200",
+            "zipcode": "30328"
+        },
+        "dealshield_interest": null,
+        "distance": 489,
+        "id": "526fec9918ba48448a000008",
+        "last_activity": "2013-10-29T17:18:52Z",
+        "messages": [
+            {
+                "amount": 24000,
+                "body": null,
+                "from": {
+                    "dealership_id": "4f5697eac3699918f8011f46",
+                    "dealership_name": "DealerMatch",
+                    "name": "Sean Gilbert",
+                    "user_id": "51f6645c2e17784602000058"
+                },
+                "id": "526fec9918ba48448a000009",
+                "read": false,
+                "timestamp": "2013-10-29T17:12:57Z",
+                "type": "offer"
+            },
+            {
+                "amount": 24000,
+                "body": "Sorry, this vehicle is no longer available.",
+                "from": {
+                    "dealership_id": "4f568d84c3699918f800d730",
+                    "dealership_name": "Pohanka Honda Of Fredericksburg",
+                    "name": "Tim Willis",
+                    "user_id": "51e47d1b70062c2771004851"
+                },
+                "id": "526fedfce3bef8cff90000d7",
+                "read": true,
+                "timestamp": "2013-10-29T17:18:52Z",
+                "type": "decline"
+            }
+        ],
+        "selling_dealership": {
+            "city": "Fredericksburg",
+            "id": "4f568d84c3699918f800d730",
+            "name": "Pohanka Honda Of Fredericksburg",
+            "phone": "(888) 834-1352",
+            "state": "VA",
+            "street": "60 South Gateway Dr",
+            "zipcode": "22406"
+        },
+        "settlement": {
+            "floor_plan_company": "chase",
+            "id": "526fec9918ba48448a000007",
+            "service": "floor_plan"
+        },
+        "timestamp": "2013-10-29T17:18:52Z",
+        "vehicle": {
+            "condition_description": null,
+            "custom_advertisement": null,
+            "dealership": {
+                "name": "Pohanka Honda Of Fredericksburg",
+                "phone": "(888) 834-1352"
+            },
+            "description": "***Leather, Heated Seats, Navigation, Honda Certified, 4 Wheel Drive! Crew Cab! If youve been thirsting for just the right 2011 Honda Ridgeline, well stop your search right here. This is the stunning, luxury truck that is certain to indulge your senses. Awarded Consumer Guides rating as a 2011 Recommended Compact Pickup. Honda Certified Pre-Owned means you not only get the reassurance of a 12mo/12,000 mile limited warranty, but also up to a 7yr/100k mile powertrain warranty, a 150-point inspection/reconditioning, and a complete CARFAX vehicle history report. Welcome to the A-list. Arrive in style with the Ridgelines bold lines and stunning good looks. Fashionably late has a new meaning. All prices exclude taxes, title, license, and dealer processing fee of $499.00.  Published price subject to change without notice to correct errors or omissions or in the event of inventory fluctuations.  All features not on all vehicles.  Vehicles shown are for illustration purposes only. ** MPG is based on 2012 EPA mileage estimates. Use for comparison purposes only. Do not compare to models before 2008. Your actual mileage will vary, depending on how you drive and maintain your vehicle.",
+            "hide_dealshield_advertisement": false,
+            "hide_dealshield_form": false,
+            "id": "524468d4f299478b29bab7b4",
+            "location": {
+                "city": "Fredericksburg",
+                "state": "VA",
+                "street": "60 South Gateway Dr",
+                "zipcode": "22406"
+            },
+            "main_image": "/proxy/images.autotrader.com/images/2013/9/25/355/915/33426963906.355915737.IM1.MAIN.565x421_A.562x421.jpg",
+            "make": "Honda",
+            "model": "Ridgeline",
+            "retail_price": 25308,
+            "sold": true,
+            "title": "2011 Honda Ridgeline RTL",
+            "trim": "RTL",
+            "vin": "5FPYK1F54BB001413",
+            "year": 2011
+        }
+    },
+    {
+        "amount": 7500,
+        "archived": false,
+        "buying_dealership": {
+            "city": "Atlanta",
+            "id": "4f5697eac3699918f8011f46",
+            "name": "DealerMatch",
+            "phone": "(855) 628-2488",
+            "state": "GA",
+            "street": "2 Concourse Pkwy, Suite 200",
+            "zipcode": "30328"
+        },
+        "dealshield_interest": true,
+        "distance": 1035,
+        "id": "5231c71c2e1778743600001b",
+        "last_activity": "2013-10-27T17:44:18Z",
+        "messages": [
+            {
+                "amount": 7500,
+                "body": "This is a demo offer only. kristen.sears@dealermatch.com",
+                "from": {
+                    "dealership_id": "4f5697eac3699918f8011f46",
+                    "dealership_name": "DealerMatch",
+                    "name": "Kristen Sears (DealerMatch Trade Desk)",
+                    "user_id": "50c6620a70062c7de80000e7"
+                },
+                "id": "5231c71c2e1778743600001a",
+                "read": true,
+                "timestamp": "2013-09-12T13:52:28Z",
+                "type": "offer"
+            },
+            {
+                "amount": null,
+                "body": "Testing 123 ",
+                "from": {
+                    "dealership_id": "4f5686e3c3699918f8009f90",
+                    "dealership_name": "John D Crafts Inc.",
+                    "name": "Bob Hayslip",
+                    "user_id": "5217a83d2e1778563a000016"
+                },
+                "id": "52320a4ee3bef8686000000e",
+                "read": true,
+                "timestamp": "2013-09-12T18:39:10Z",
+                "type": "message"
+            },
+            {
+                "amount": null,
+                "body": "Test",
+                "from": {
+                    "dealership_id": "4f5697eac3699918f8011f46",
+                    "dealership_name": "DealerMatch",
+                    "name": "Ken Gavranovic",
+                    "user_id": "52011a2e2e17783f04000015"
+                },
+                "id": "526d50f22e1778280c000084",
+                "read": false,
+                "timestamp": "2013-10-27T17:44:18Z",
+                "type": "message"
+            }
+        ],
+        "selling_dealership": {
+            "city": "Lisbon Falls",
+            "id": "4f5686e3c3699918f8009f90",
+            "name": "John D Crafts Inc.",
+            "phone": "(207) 353-4361",
+            "state": "ME",
+            "street": "711 Lisbon Road",
+            "zipcode": "04252"
+        },
+        "settlement": {
+            "floor_plan_company": "Demo",
+            "id": "5231c71c2e1778743600001c",
+            "service": "floor_plan"
+        },
+        "timestamp": "2013-10-27T17:44:18Z",
+        "vehicle": {
+            "condition_description": null,
+            "custom_advertisement": null,
+            "dealership": {
+                "name": "John D Crafts Inc.",
+                "phone": "(207) 353-4361"
+            },
+            "description": "Very nice driving 4wd GMC Envoy! Features include: power sunroof, power drivers seat, alloy wheels, Bose sound and much more! Call (207)353-4361 or stop by for more information.",
+            "hide_dealshield_advertisement": false,
+            "hide_dealshield_form": false,
+            "id": "520a1d7815dc59b8c845a15c",
+            "location": {
+                "city": "Lisbon Falls",
+                "state": "ME",
+                "street": "711 Lisbon Road",
+                "zipcode": "04252"
+            },
+            "main_image": "/proxy/images.autotrader.com/images/2013/10/31/346/326/34266541630.346326899.IM1.MAIN.565x421_A.562x421.jpg",
+            "make": "GMC",
+            "model": "Envoy",
+            "retail_price": 7990,
+            "sold": false,
+            "title": "2006 GMC Envoy 4x4",
+            "trim": "4x4",
+            "vin": "1GKDT13S262324273",
+            "year": 2006
+        }
+    }
+]

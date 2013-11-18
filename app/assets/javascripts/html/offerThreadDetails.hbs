@@ -1,0 +1,19 @@
+{{#with messages}}
+  {{#all}}
+    <div class="panel {{#if sender.fromSelf}}panel-info{{else}}panel-warning{{/if}}">
+      <div class="panel-heading">
+        <h3 class="panel-title">{{sender.name}}</h3>
+        <p>{{sender.dealership}}</p>
+      </div>
+      <div class="panel-body">{{body}}</div>
+    </div>
+  {{/all}}
+{{/with}}
+
+{{!
+<div class="btn-group btn-group-lg btn-group-justified">
+  <a class="btn btn-success">Make Offer</a>
+  <a class="btn btn-primary">Message</a>
+  <a class="btn btn-info">Call</a>
+</div>
+}}

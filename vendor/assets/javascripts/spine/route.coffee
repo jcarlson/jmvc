@@ -69,10 +69,10 @@ class Spine.Route extends Spine.Module
 
     return if options.shim
 
-    if !route 
+    if !route
       if typeof options.redirect is 'function'
         return options.redirect.apply this, [@path, options]
-      else 
+      else
         if options.redirect is true
           @redirect(@path)
 

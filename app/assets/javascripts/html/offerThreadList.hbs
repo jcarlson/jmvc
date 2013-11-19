@@ -2,8 +2,10 @@
 
   {{#each vehicles}}
     <li class="list-group-item" data-id="{{id}}">
-      {{#with messages}}
-        <span class="badge">{{count}}</span>
+      {{#with offerThread}}
+        {{#with messages}}
+          <span class="badge">{{count}}</span>
+        {{/with}}
       {{/with}}
       <h4 class="list-group-item-heading">{{year}} {{make}} {{model}}</h4>
       <p class="pull-right">$30,000</p>

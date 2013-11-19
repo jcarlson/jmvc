@@ -1,13 +1,15 @@
-{{#with messages}}
-  {{#all}}
-    <div class="panel {{#if sender.fromSelf}}panel-info{{else}}panel-warning{{/if}}">
-      <div class="panel-heading">
-        <h3 class="panel-title">{{sender.name}}</h3>
-        <p>{{sender.dealership}}</p>
+{{#with offerThread }}
+  {{#with messages }}
+    {{#each all }}
+      <div class="panel {{#if sender.fromSelf}}panel-info{{else}}panel-warning{{/if}}">
+        <div class="panel-heading">
+          <h3 class="panel-title">{{sender.name}}</h3>
+          <p>{{sender.dealership}}</p>
+        </div>
+        <div class="panel-body">{{body}}</div>
       </div>
-      <div class="panel-body">{{body}}</div>
-    </div>
-  {{/all}}
+    {{/each}}
+  {{/with}}
 {{/with}}
 
 {{!

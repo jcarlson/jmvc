@@ -1,3 +1,4 @@
 class @Vehicle extends Spine.Model
   @configure 'Vehicle', 'year', 'make', 'model', 'vin'
-  @hasMany 'messages', 'Message'
+  @hasOne 'offerThread', 'OfferThread'
+  @hasMany 'offerThreads', 'OfferThread'

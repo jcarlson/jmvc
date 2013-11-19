@@ -25,8 +25,6 @@
 
 #= require json/vehicles
 
-# vehicles = @vehicles
-
 class Application extends Spine.Controller
 
   template: HandlebarsTemplates['html/application']
@@ -51,3 +49,4 @@ $ ->
   root = $('#application')
   new Application(el: root)
   Spine.Route.setup()
+  #Vehicle.refresh(vehicles)

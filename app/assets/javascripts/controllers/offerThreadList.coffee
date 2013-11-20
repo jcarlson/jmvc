@@ -1,7 +1,7 @@
 class @OfferThreadList extends Spine.Controller
 
   events:
-    'click [data-id]' : '_click'
+    'click li' : '_click'
 
   elements:
     '[data-id]': 'offerThreads'

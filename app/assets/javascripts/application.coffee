@@ -29,16 +29,18 @@
 
 class Application extends Spine.Controller
 
+  events:
+    'click #render': 'render'
+
   template: HandlebarsTemplates['html/application']
 
+  views:
+    'list'    : OfferThreadList
+    'details' : OfferThreadDetails
+
   init: ->
-    @html @template(@)
-
-    @list    = new OfferThreadList el: @$('.offerThreadList')
-    @details = new OfferThreadDetails el: @$('.offerThreadDetails')
-
     @route '/offerThreads/:id', @change
-
+    @render()
     Vehicle.refresh(vehicles)
 
   change: (params) ->
@@ -46,6 +48,24 @@ class Application extends Spine.Controller
       @list.change(params.id)
       @details.change(params.id)
 
+  render: ->
+    # lift existing views out of the DOM temporarily
+    @[view].el.detach() for view of @views when @[view]
+
+    # do the render dirty work
+    @html @template(@)
+
+    # reinsert or initialize views
+    for name, View of @views
+      # find view slots that need filled
+      slot = @$("[data-view='#{name}']")
+
+      if @[name]
+        # replace the slot with the view
+        slot.replaceWith( @[name].el )
+      else
+        # initialize the view
+        @[name] = new View(el: slot)
 
 $ ->
   root = $('#application')

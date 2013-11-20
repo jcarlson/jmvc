@@ -20,7 +20,9 @@
 #= require spine/route
 
 #= require_tree ./html
+#= require_tree ./lib
 #= require_tree ./models
+#= require_tree ./views
 #= require_tree ./controllers
 
 #= require json/vehicles
